@@ -1,0 +1,270 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5{
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+}
+
+h1{
+    margin: 0;
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    color: white;
+}
+h2{
+    color:  #4d69ff;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+h1 strong{
+ color: #4d69ff;
+}
+
+header{
+    background-color: #4d69ff;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+figure {
+    margin: 0;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.menu{
+    height: inherit;
+}
+
+header ol{
+  display: flex;
+  height: inherit;
+}
+
+header ol li { 
+    height: inherit;
+  }
+   
+header a {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+}
+       
+.hero{
+    height: 300px;
+    background-color:  #1b2127;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero_image{
+   object-fit: cover;
+}
+
+.hero figure {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.portfolio{
+ background: #fafafa;
+ padding: 20px;
+}
+
+.project {
+    border: 1px solid gray;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    padding: 30px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.project_url a{
+    color: #4d69ff;
+   text-decoration: none;
+}
+.project_young,
+.project_date,
+.project_url{
+    margin: 10px 0;
+}
+
+.project_description{
+    font-size: 20px;
+    text-align: justify;
+}
+.project strong{
+    font-family:'Oswald', sans-serif ;
+}
+
+.project_title{
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.projesct1_details {
+    width: 500px;
+}
+
+.project1_imageContainer{
+    width: 500px;
+}
+
+.courses_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course{
+    margin: 10px;
+    width: 480px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #bac5ff;
+}
+
+.course img{
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.course_ditails{
+    margin: 20px 35px;
+    margin-top:-40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.course_description{
+    text-align: justify;
+}
+
+.course_title{
+    font-size: 20px;
+}
+
+.course_url_certificate{
+    border: 1px solid #4d69ff;
+    border-radius: 10px;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #4d69ff;
+}
+
+.courses_title{
+    margin-left: 40px;
+}
+.contact h2{
+    color: white;
+}
+.contact{
+    background-color: #4d69ff;
+    color: white;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social_link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    margin: 0 10px;
+}
+
+.social_link.github{
+    background-image: url('./images/github.svg');
+}
+
+.social_link.linkedin{
+    background-image: url('./images/linkedin.svg');
+    
+}
+
+.social_link.instagram{
+    background-image: url('./images/instagram.svg');
+   
+}
+
+.form_email input {
+    border-color: gray;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px 20px 10px 25px;
+    background-image: url('./images/envelope.svg');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+  }
+
+.form_email button {
+    display: block;
+    background: transparent;
+    color: white;
+    padding: 10px 0;
+    border-radius: 10px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.footer{
+    color: white;
+    background-color: #1b2127 ;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img{
+    vertical-align: middle;
+    height: 40px;
+    width: 75px;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
